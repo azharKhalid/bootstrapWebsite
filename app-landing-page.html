@@ -1,0 +1,153 @@
+<html>
+<head>
+	<title>My App</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+	<style type="text/css">
+  body{
+    position: relative;
+  }
+	  #jumbotron1{
+	  	background-image: url(pic.jpg);
+	  	background-size: cover;
+	  	 background-position: 0% 25%;
+	  	 height: 400px;
+       margin-top: 55px;
+	  }
+	  .input-group-addon{
+	    background-color: #F8F9FA;
+	  	width: 35px;
+	  	padding: 6px 0px 0px 10px;
+	  	height: 36px;
+	  	margin-top: 1px;
+	  	border-radius: 2px 0px 0px 2px;
+	  }
+	  .form-group{
+	  	width: 300px;
+	  	text-align: center;
+	  	justify-content:center;
+	  }
+	  #email{
+	  	margin-right: 2px;
+	  }
+    #jumbotron2{
+      position: relative;
+      margin-top:-40px;
+      height: 650px;
+    }
+    .card{
+      height: 26rem;
+      margin-top: 50px;
+    }
+    #icon{
+      margin-right: 5px;
+    }
+    #last-div{
+      height: 500px;
+      background-color: #42eef4;
+      margin-top: -32px;
+    }
+    #last-div-head{
+      padding-top: 140px;
+    }
+    #app-store-icon{
+      height: 70px;
+      margin-top: 0px;
+      vertical-align: center;
+      margin-left: 565px;
+    }
+	</style>
+</head>
+<body data-spy="scroll" data-target="#onlynavbar" data-offset="70">
+	<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" id="onlynavbar">
+         <a class="navbar-brand" href="#">MyApp</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto nav nav-tabs" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" href="#download">Download The App</a>        
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Email" aria-label="Search">
+      <input class="form-control mr-sm-2" type="search" placeholder="Password" aria-label="Search">
+      <button class="btn btn-success my-2 my-sm-0" type="submit">Login</button>
+    </form>
+  </div>
+</nav>
+<div id="home">
+<div class="jumbotron" id="jumbotron1">
+  <h1 class="display-4 text-center">My Awesome App!</h1>
+  <p class="lead text-center">This is why you should download this fantastic app!</p>
+  <hr class="my-4">
+  <p class="text-center">Want to know more? Join our mailing list!</p>
+  <form class="form-inline justify-content-center"
+  <div class="form-group">
+  	<div class="input-group">
+  		<div class="input-group-addon">
+  			@
+  		</div>
+  		<input class="form-control" id="email" name="email" type="text">
+  	</div>
+  	  <button type="button" class="btn btn-primary">Sign up</button>
+  </div>
+  </form>
+</div>
+</div>
+<div id="about">
+<div class="jumbotron" id="jumbotron2">
+  <h1 class="text-center">Why this App is Awesome</h1>
+  <p class="lead text-center"><strong>Summary, once again, of our app's awsomeness</strong></p>
+  <div class="row">
+    <div class="col-sm-4">
+  <div class="card h-200" style="width: 25rem;">
+  <img class="card-img-top" src="card.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h4 class="card-title"><i id="icon" class="fas fa-anchor"></i>Card title</h4>
+    <p class="card-text">This is some longer card with supporting text below as a natural-in to additional content. This ia a little bit longer.</p>
+  </div>
+</div>
+</div>
+   <div class="col-sm-4">
+  <div class="card" style="width: 25rem;">
+  <img class="card-img-top" src="card.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h4 class="card-title"><i id="icon" class="fas fa-bicycle"></i>Card title</h4>
+    <p class="card-text">This card has a supporting text below as a natural-in to additional content.</p>
+  </div>
+</div>
+</div>
+  <div class="col-sm-4">
+  <div class="card" style="width: 25rem;">
+  <img class="card-img-top" src="card.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h4 class="card-title"><i id="icon"class="fas fa-birthday-cake"></i>Card title</h4>
+    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="download">
+<div id="last-div">
+      <h2 class="text-center" id="last-div-head">Download the app!</h2>
+      <p class="lead text-center"><strong>Really, why should I download this app???</strong></p>
+      <img id="app-store-icon" src="app-store-icon.png">
+      </div>
+</div>
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/javascript.util/0.12.12/javascript.util.min.js"></script>
+</body>
+</html>
